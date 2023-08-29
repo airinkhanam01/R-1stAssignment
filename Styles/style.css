@@ -71,7 +71,7 @@ line-height: normal;
 .bonus-para{
     color: rgba(39, 39, 39, 0.60);
 font-size: 18px;text-align: center;
-font-weight: 400px;
+font-weight: 400px; line-height: 30px;
 padding-top: 20px; padding-bottom: 30px;
 }
 .bonus-title{
@@ -165,24 +165,46 @@ height: 420px; padding-top: 80px; padding-right: 200px;
 }
 .insta-rec-1{
     width: 290px;
-    height: 390px;
+    height: 335px;
     background-image: url("../Flower Asset/Flower\ 01.png");background-size:cover;
     background-position: center;
 }
 .insta-rec-2{
     width: 290px;
-    height: 390px;  background-image: url("../Flower Asset/Rectangle\ 4.png");background-size:cover;
+    height: 335px;  background-image: url("../Flower Asset/Rectangle\ 4.png");background-size:cover;
     background-position: center;
 }
 
 .insta-rec-3{
     width: 290px;
-    background-position: center;  height: 390px;background-image: url("../Flower Asset/Rectangle\ 5.png");background-size:cover;
+    background-position: center;  height: 335px;background-image: url("../Flower Asset/Rectangle\ 5.png");background-size:cover;
     
 }
 .insta-rec-4{
     width: 290px;
-    background-position: center;  height: 390px;background-image: url("../Flower Asset/Rectangle\ 6.png"); background-size:cover;
+    background-position: center;  height: 335px;;background-image: url("../Flower Asset/Rectangle\ 6.png"); background-size:cover;
 }
 .insta-image{display: flex; padding-left: 150px; padding-right: 100px;
 gap: 20px;}
+
+.emailbox{display: flex; gap: 20px;
+align-items: center;}
+
+.email-button{
+    width: 450px;
+    height: 50px;border-radius: 8px; border: none;
+    background: #FFF;}
+
+    .deal-section{
+        width:1100px;
+         height:380px; margin-left: 155px;
+margin-top: 200px;
+justify-content: center;
+        background-image: url("../Flower Asset/Rectangle\ 9.png"); 
+        background-repeat: no-repeat;
+
+    }
+    .align-all-items{
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
