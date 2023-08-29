@@ -1,0 +1,115 @@
+.header-style{
+    background-color:rgba(229, 84, 115, 0.10);
+    height: 850px;
+    width: 1350px;
+    display: flex;
+
+   
+
+}
+.header-image{
+    background-image: url("../Flower Asset/pngwing\ 10.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 800px;
+    padding-right: 100px;
+}
+
+.header-div1{
+    height: 500px;
+    width: 400px;
+   padding-top: 210px;
+   
+   padding-left: 80px;
+   
+    
+}
+*{
+    margin: 0%;
+    font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+.header-text{
+    list-style: none;
+}
+h1{
+    color: #272727;
+    width: 640px;
+    height: 200px;
+
+font-size:60px;
+font-style: normal;
+font-weight: 700px;
+line-height: normal;
+}
+.header-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-style: normal;
+padding-top: 33px;
+padding-bottom: 33px;
+font-weight: 400; width: 620px;
+height: 50px;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+padding: 20px 40px;
+color: white;border: none;
+
+gap: 10px;
+}
+.primary-text{
+    color: #272727;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700px;
+line-height: normal;
+}
+.bonus-para{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;text-align: center;
+font-weight: 400px;
+padding-top: 20px;
+}
+.bonus-title{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 150px;
+}
+.bonus-img{ display: flex; padding-left: 190px;
+    padding-right: 190px; padding-top: 40px; gap: 25px;
+}
+.rectangle-1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+ width: 310px;
+height: 500px; background-image: url("/Flower Asset/pngwing\ 6.png");
+background-position: bottom; background-repeat: no-repeat;
+}
+.rectangle-2{
+     border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);background-image:url("../Flower Asset/pngwing\ 5.png");
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 500px; background-position: center,bottom;
+
+}
+.rectangle-3{
+    
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);background-image: url("../Flower Asset/pngwing\ 7.png");
+    background-position: bottom;
+    background-repeat: no-repeat;width: 310px;
+    height: 500px;
+}
+.underline-text{
+    color: #272727;
+text-align: center;
+font-size: 24px; padding-top: 30px;
+font-weight: 700;
+
+text-decoration-line: underline;
+}
