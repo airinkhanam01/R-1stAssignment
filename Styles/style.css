@@ -7,12 +7,14 @@
    
 
 }
-.header-image{
-    background-image: url("../Flower Asset/pngwing\ 10.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    padding-left: 770px;
+.header-image{padding-left: 770px;
     padding-right: 100px;
+    
+    background-image: url("../Flower Asset/pngwing\ 10.png");background-size: 500px , 800px;
+
+    background-position: bottom right;
+    background-repeat: no-repeat;flex-shrink: 0;
+    
 }
 
 .header-div1{
@@ -54,7 +56,7 @@ height: 80px;
 .btn-primary{
     border-radius: 8px;
     background: #E55473;
-padding: 20px 40px;
+padding: 20px 40px; font-weight: 700px;
 color: white;border: none;
 
 gap: 10px;
@@ -78,22 +80,22 @@ padding-top: 20px; padding-bottom: 30px;
     padding-right: 400px;
     padding-top: 150px;
 }
-.bonus-img{ display: flex; padding-left: 190px;
-    padding-right: 190px; padding-top: 40px; gap: 25px;
+.bonus-img{ display: flex; padding-left: 165px;
+    padding-right: 165px; padding-top: 40px; gap: 25px;
 }
 .rectangle-1{
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
- width: 310px;
-height: 500px; background-image: url("/Flower Asset/pngwing\ 6.png");
+width:335px;
+    height:500px; background-image: url("/Flower Asset/pngwing\ 6.png");
 background-position: bottom; background-repeat: no-repeat;
 }
 .rectangle-2{
      border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);background-image:url("../Flower Asset/pngwing\ 5.png");
     background-repeat: no-repeat;
-    width: 310px;
-    height: 500px; background-position: center,bottom;
+    width:335px;
+    height:500px; background-position:    center bottom;
 
 }
 .rectangle-3{
@@ -101,13 +103,14 @@ background-position: bottom; background-repeat: no-repeat;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);background-image: url("../Flower Asset/pngwing\ 7.png");
     background-position: bottom;
-    background-repeat: no-repeat;width: 310px;
-    height: 500px;
+    background-repeat: no-repeat;
+    width:335px;
+    height:500px;
 }
 .underline-text{
     color: #272727;
-text-align: center;
-font-size: 24px; padding-top: 30px;
+    text-align: center;
+font-size:24px; padding-top: 30px;
 font-weight: 700;
 
 text-decoration-line: underline;
@@ -119,9 +122,9 @@ ul{list-style: none;
 
 justify-content: center;}
 .optional-div{
-    width: 700px;
+    width: 678px;
     height:50px;
-    padding: 200px; margin-left: 140px;
+    padding: 190px; margin-left:160px;
     margin-top: 50px;
     padding-top: 80px;
     padding-bottom: 150px; border-radius: 8px;
@@ -163,24 +166,24 @@ padding-bottom: 30px;
 height: 420px; padding-top: 80px; padding-right: 200px;
 }
 .insta-rec-1{
-    width: 290px;
+    width: 265px;
     height: 335px;
     background-image: url("../Flower Asset/Flower\ 01.png");background-size:cover;
     background-position: center;
 }
 .insta-rec-2{
-    width: 290px;
+     width: 265px;
     height: 335px;  background-image: url("../Flower Asset/Rectangle\ 4.png");background-size:cover;
     background-position: center;
 }
 
 .insta-rec-3{
-    width: 290px;
+    width: 265px;
     background-position: center;  height: 335px;background-image: url("../Flower Asset/Rectangle\ 5.png");background-size:cover;
     
 }
 .insta-rec-4{
-    width: 290px;
+    width: 265px;
     background-position: center;  height: 335px;;background-image: url("../Flower Asset/Rectangle\ 6.png"); background-size:cover;
 }
 .insta-image{display: flex; padding-left: 150px; padding-right: 100px;
@@ -226,7 +229,7 @@ line-height: normal;
         width: 600px;
         color: rgba(255, 255, 255, 0.90);
 text-align: center;
-font-size: 18px; padding-left:355px; padding-top: 24px;
+font-size: 18px; padding-left:360px; padding-top: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
