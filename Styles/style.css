@@ -1,7 +1,7 @@
 .header-style{
     background-color:rgba(229, 84, 115, 0.10);
     height: 850px;
-    width: 1350px;
+    width: 1360px;
     display: flex;
 
    
@@ -11,7 +11,7 @@
     background-image: url("../Flower Asset/pngwing\ 10.png");
     background-position: right;
     background-repeat: no-repeat;
-    padding-left: 800px;
+    padding-left: 770px;
     padding-right: 100px;
 }
 
@@ -25,7 +25,7 @@
     
 }
 *{
-    margin: 0%;
+    margin:0;
     font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
 
@@ -72,7 +72,7 @@ line-height: normal;
     color: rgba(39, 39, 39, 0.60);
 font-size: 18px;text-align: center;
 font-weight: 400px;
-padding-top: 20px;
+padding-top: 20px; padding-bottom: 30px;
 }
 .bonus-title{
     padding-left: 400px;
@@ -128,3 +128,61 @@ justify-content: center;}
     padding-bottom: 150px; border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
+h4{
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal; 
+}
+.text-color{
+    color: #E55473;;
+}
+.hotdeal-text{
+    text-align: center; padding-left:200px; padding-top: 200px; width:510px;
+    height: 200px;
+    
+    
+}
+.section-3{
+    height: 560px;
+    width: 1360px;
+    background-color:rgba(229, 84, 115, 0.10);
+    margin-top: 120px;display: flex;
+    justify-content: space-between;
+    
+}
+.hotdeal-para{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 14px;text-align: center;
+font-weight: 400px; padding-top: 30px;
+padding-bottom: 30px;
+}
+.image-side{
+    width: 318px;
+height: 420px; padding-top: 80px; padding-right: 200px;
+}
+.insta-rec-1{
+    width: 290px;
+    height: 390px;
+    background-image: url("../Flower Asset/Flower\ 01.png");background-size:cover;
+    background-position: center;
+}
+.insta-rec-2{
+    width: 290px;
+    height: 390px;  background-image: url("../Flower Asset/Rectangle\ 4.png");background-size:cover;
+    background-position: center;
+}
+
+.insta-rec-3{
+    width: 290px;
+    background-position: center;  height: 390px;background-image: url("../Flower Asset/Rectangle\ 5.png");background-size:cover;
+    
+}
+.insta-rec-4{
+    width: 290px;
+    background-position: center;  height: 390px;background-image: url("../Flower Asset/Rectangle\ 6.png"); background-size:cover;
+}
+.insta-image{display: flex; padding-left: 150px; padding-right: 100px;
+gap: 20px;}
