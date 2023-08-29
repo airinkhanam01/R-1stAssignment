@@ -45,12 +45,11 @@ line-height: normal;
 }
 .header-paragraph{
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
-padding-top: 33px;
-padding-bottom: 40px;
-font-weight: 400; width: 620px;
-height: 45px;
+padding-top: 33px; line-height: 30px; padding-bottom: 33px;
+font-weight: 400px; width: 620px;
+height: 80px;
 }
 .btn-primary{
     border-radius: 8px;
@@ -207,4 +206,31 @@ justify-content: center;
     .align-all-items{
         padding-top: 100px;
         padding-bottom: 120px;
+    }
+    footer{
+        width: 1360px;
+        height: 420px;
+        background-color: black;
+        margin-top: 200px;
+    }
+    .footer-section{
+        color: #FFF;
+        
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .footer-para{
+        
+        width: 600px;
+        color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px; padding-left:355px; padding-top: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+    }
+    .footer-element{
+        padding-top: 150px;
     }
