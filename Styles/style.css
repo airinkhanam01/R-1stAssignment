@@ -48,9 +48,9 @@ line-height: normal;
 font-size: 18px;
 font-style: normal;
 padding-top: 33px;
-padding-bottom: 33px;
+padding-bottom: 40px;
 font-weight: 400; width: 620px;
-height: 50px;
+height: 45px;
 }
 .btn-primary{
     border-radius: 8px;
@@ -112,4 +112,19 @@ font-size: 24px; padding-top: 30px;
 font-weight: 700;
 
 text-decoration-line: underline;
+}
+.optional-div{
+    display: flex;
+}
+ul{list-style: none;
+
+justify-content: center;}
+.optional-div{
+    width: 700px;
+    height:50px;
+    padding: 200px; margin-left: 140px;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 150px; border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
 }
