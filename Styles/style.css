@@ -86,9 +86,9 @@ padding-top: 20px; padding-bottom: 30px;
 .rectangle-1{
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
-width:335px;
-    height:500px; background-image: url("/Flower Asset/pngwing\ 6.png");
-background-position: bottom; background-repeat: no-repeat;
+ background-image: url("/Flower Asset/pngwing\ 6.png");
+background-position: bottom; background-repeat: no-repeat;width:335px;
+height:500px;
 }
 .rectangle-2{
      border-radius: 300px 300px 0px 0px;
